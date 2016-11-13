@@ -1,0 +1,10 @@
+.media
+  .media-left
+    img.media-object src="/images/books/#{@book.id}.jpg" alt="#{@book.title}" style="width: 320px"
+  .media-body
+    h4.media-heading = @book.title
+    dl
+      dt 著者：
+      dd = @book.author
+      dt 価格：
+      dd = @book.price
