@@ -1,6 +1,6 @@
-require "sinatra"
-require "sinatra/reloader"
+require 'sinatra'
+require 'sinatra/reloader'
 
-get "/" do
-    slim :index
+get '/' do
+  slim :index
 end

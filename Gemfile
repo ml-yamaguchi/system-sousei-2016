@@ -1,8 +1,7 @@
-# frozen_string_literal: true
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "activerecord", "~> 4.0"
-gem "sqlite3"
-gem "sinatra"
-gem "sinatra-contrib"
-gem "slim"
+gem 'sinatra'
+gem 'sinatra-contrib'
+gem 'sqlite3'
+gem 'activerecord', '~> 4.0'
+gem 'slim'
