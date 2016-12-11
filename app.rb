@@ -14,6 +14,11 @@ BOOKS = [
 
 get '/' do
   @books = BOOKS
+  # fix B
+  @books.each do | book |
+    puts book.title
+  end
+
   slim :index
 end
 
