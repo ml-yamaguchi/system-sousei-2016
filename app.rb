@@ -16,6 +16,7 @@ get '/' do
   @books = BOOKS
   # fix B
   @books.each do | book |
+    puts book.id
     puts book.title
   end
 
